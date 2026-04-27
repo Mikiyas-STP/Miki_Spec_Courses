@@ -1,0 +1,17 @@
+# 1. Choose the base Operating System and Python version
+FROM python:3.10-slim
+
+# 2. Choose the working directory inside the suitcase
+WORKDIR /app
+
+# 3. Copy the list of packages we need
+COPY requirements.txt .
+
+# 4. Install the packages
+RUN pip install -r requirements.txt
+
+# 5. Copy the rest of our API code into the suitcase
+COPY . .
+
+# 6. Tell the suitcase what command to run when it opens
+CMD["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]

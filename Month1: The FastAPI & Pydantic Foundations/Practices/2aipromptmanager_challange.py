@@ -20,7 +20,6 @@ async def create_prompt(request_data: AIRequest):
         "prompt_received": data_dict["prompt"],
         "config": data_dict
     }
-
 @app.get("/model/{category}")
 async def list_category(category: str, provider: str):
     # category comes from the URL path: /model/chat

@@ -126,5 +126,4 @@ To get hired in London, you don't just need to "know" these. You need to be able
 
 **🔑 Focus for Review:**
 *   Always catch **specific** exceptions. Never use a bare `except:`.
-
 ---

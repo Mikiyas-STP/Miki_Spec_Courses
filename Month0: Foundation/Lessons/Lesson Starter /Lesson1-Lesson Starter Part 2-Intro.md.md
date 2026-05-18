@@ -1,12 +1,10 @@
-lets have **3-Part Mini-Series**:
+**3-Part Mini-Series**:
 * **Session 1 (Today):** Core Data Types & Operations (Strings, Lists, Dictionaries, and Logic).
 * **Session 2:** Control Flow (Loops, If/Else, and Iteration tricks).
 * **Session 3:** Functions, Scope, and a deep dive into Type Hints.
 
 Let's dive into **Session 1**. Since you know JavaScript, I won't explain *what* a string or an array is. Instead, I will show you how Python *operates* on them, especially in a backend context.
-
 ---
-
 ### 1. Booleans and Logic Operators
 In JavaScript, you use symbols (`&&`, `||`, `!`). Python is designed to read like English. It uses words.
 

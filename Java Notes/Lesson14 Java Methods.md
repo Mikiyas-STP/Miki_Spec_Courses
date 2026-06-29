@@ -478,3 +478,169 @@ static void printMessage() {
 * `{ ... }`
 
 ---
+
+
+
+
+# Question 5
+
+Given this method:
+
+```java
+static void printMessage() {
+    System.out.println("Hi");
+}
+```
+
+Identify each part:
+
+* `static`
+* `void`
+* `printMessage`
+* `()`
+* `{ ... }`
+
+Let's go through them one by one.
+
+---
+
+## 1. `static`
+
+```java
+static
+```
+
+This is the **`static` keyword**.
+
+From your W3Schools resource:
+
+> **`static` means that the method belongs to the class and not an object of the class.**
+
+At this stage, that's all you need to know.
+
+Later, when you learn about objects and classes, this sentence will make much more sense.
+
+---
+
+## 2. `void`
+
+```java
+void
+```
+
+This is the **return type**.
+
+`void` means:
+
+> This method does **not** return a value.
+
+For example:
+
+```java
+static void printMessage() {
+    System.out.println("Hi");
+}
+```
+
+prints:
+
+```text
+Hi
+```
+
+but it doesn't send anything back to whoever called it.
+
+---
+
+## 3. `printMessage`
+
+```java
+printMessage
+```
+
+This is called the **method name** or **method identifier**.
+
+It is simply the name Java uses to identify this method.
+
+Later, when you write:
+
+```java
+printMessage();
+```
+
+Java knows exactly which method to execute.
+
+---
+
+## 4. `()`
+
+```java
+()
+```
+
+These are the **parentheses**.
+
+They contain the method's **parameters** (inputs).
+
+In this example:
+
+```java
+()
+```
+
+they're empty.
+
+That means:
+
+> This method doesn't need any information from the caller.
+
+Later you'll see methods like:
+
+```java
+greetUser(String name)
+```
+
+where the parentheses are no longer empty.
+
+---
+
+## 5. `{ ... }`
+
+```java
+{
+    System.out.println("Hi");
+}
+```
+
+This is called the **method body**.
+
+Everything inside the braces belongs to the method.
+
+The method body contains the instructions Java executes when the method is called.
+
+In this case, there's only one instruction:
+
+```java
+System.out.println("Hi");
+```
+
+---
+
+# Complete Breakdown
+
+```java
+static          // belongs to the class
+
+void            // returns nothing
+
+printMessage    // method name
+
+()              // no parameters
+
+{               // beginning of method body
+
+    System.out.println("Hi");
+
+}               // end of method body
+```
+
